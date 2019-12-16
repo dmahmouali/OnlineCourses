@@ -1,0 +1,4 @@
+ $ docker image build -t test:1.0 .
+
+ $ docker run -it -p 7000:7000 test:1.0 bash
+
